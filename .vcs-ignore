@@ -1,0 +1,8 @@
+# ---> OS
+.DS_Store
+
+# ---> General files
+.local
+.circleci
+.github
+docs

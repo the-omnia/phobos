@@ -1,0 +1,31 @@
+{
+    "vincula": "1.0.0",
+    "organization": {
+        "id": "omnia.ru",
+        "full-name": "Omnia Community"
+    },
+    "license": {
+        "SPDX": "OOSL-v1",
+        "full-name": "Omnia Open Source License v1",
+        "inherits": "BSL-v1"
+    },
+    "languages": {
+        "d": {
+            "version": "1.39.0",
+            "compiler": "ldc"
+        }
+    },
+    "plugins": {
+        "central:dlang": "*",
+        "central:librarian": "*",
+        "central:testis": "*"
+    },
+    "repositories": [],
+    "overrides": {
+        "testis": {
+            "enable-mem-leak-checking": true,
+            "generated-reports": "default",
+            "fail-if-mem-leak": true
+        }
+    }
+}
